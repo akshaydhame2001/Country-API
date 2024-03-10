@@ -59,6 +59,24 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+h2.mb-4 {
+  font-size: 1.875rem;  Equivalent to text-3xl 
+  font-weight: 800;  Equivalent to font-extrabold
+  color: #333;  Equivalent to text-gray-900
+  text-align: center;
+}
+
+h2.mb-4 span {
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #38a169,
+    #87ceeb
+  ); Equivalent to bg-gradient-to-r to-emerald-600 from-sky-400 
+  -webkit-background-clip: text; For Safari 
+  color: transparent;
+}
+
 input {
   width: 100%;
   padding: 10px;

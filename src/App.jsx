@@ -64,6 +64,11 @@ const App = () => {
 
   return (
     <div className="app">
+      <h2 className="mt-4 mb-8 text-3xl font-extrabold text-gray-900 dark:text-white text-center">
+        <span className=" text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+          Country Explorer
+        </span>
+      </h2>
       <input
         type="text"
         placeholder="Search country..."
